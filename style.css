@@ -181,11 +181,6 @@ text-align: center;
 
 
 
-
-
-
-
-
 .products .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -206,7 +201,7 @@ text-align: center;
     padding: 2rem 0.50rem;
     font-size: 2rem;
     color: var(--grey);
-    background: var(--hov);
+    background:#7FB5FF;
     z-index: 1;
     border-radius: .5rem;
 }
@@ -236,7 +231,7 @@ text-align: center;
     line-height: 5rem;
     font-size: 2rem;
     width: 50%;
-    background: var(--oran);
+    background: #C4DDFF;
     color: var(--grey);
 }
 .products .box-container .box .image .icons .cart-btn{
@@ -246,7 +241,7 @@ text-align: center;
 
 }
 .products .box-container .box .image .icons a:hover{
-background: var(--hov);
+background: #7FB5FF;
 }
 
 .products .box-container .box .content{
@@ -255,12 +250,12 @@ background: var(--hov);
 }
 .products .box-container .box .content h3{
     font-size: 2.5rem;
-    color: var(--pink);
+    color:var(--grey);
 }
 
 .products .box-container .box .content .price{
     font-size: 2.5rem;
-    color: var(--pink);
+    color: rgba(0, 0, 0, .6);
     font-weight: bolder;
     padding-top: 1rem;
 }
@@ -272,6 +267,97 @@ background: var(--hov);
     padding-top: 1rem;
     text-decoration: line-through;
 }
+
+
+.review .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.review .box-container .box{
+    flex: 1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgb(0,0,0,.1);
+    border-radius: .5rem;
+    padding: 3rem 2rem;
+    position: relative;
+    border: 1rem solid rgb(0,0,0,.1);
+
+}
+
+.review .box-container .stars i{
+    color: var(--hov);
+    font-size: 2rem;
+}
+.review .box-container p{
+    color: var(--grey);
+    font-size: 1.5rem;
+    line-height: 2;
+    padding-top: 2rem;
+}
+.review .box-container .box .user{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+.review .box-container .box .user  img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+.review .box-container .box .user h3{
+font-size: 2rem;
+color: var(--grey);
+}
+.review .box-container .box .user span{
+    font-size: 1.5rem;
+    color: var(--hov);
+}
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 1.5;
+    align-items: center;
+}
+
+.contact .row form{
+    flex:1 1 40rem;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0,.1);
+    border: .1rem solid rgba(0, 0, 0,.1);
+    background: rgba(255, 51, 153, .05);
+    border-radius: 5rem;
+}
+
+.contact .row .image{
+    flex:1 1 40rem;
+}
+
+
+.contact .row .image img{
+    width: 100%;
+}
+
+.contact .row form .box{
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: var(--grey);
+    text-transform: none;
+    border: .1rem solid rgb(0,0,0,.1);
+    border-radius: .5rem;
+    margin: .7rem 0;
+    width: 100%;
+}
+.contact .row form .box:focus{
+    border-color: var(--pink);
+}
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+}
+
 
 .icons-container{
     background: rgba(255, 51, 153, .05);

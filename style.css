@@ -104,7 +104,7 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background:url(/modelo1.jpg);
+    background:url(/assets/modelo1.jpg);
     background-size: cover;
     background-position: center;
 }
